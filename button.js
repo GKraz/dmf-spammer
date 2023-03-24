@@ -4,7 +4,7 @@ let quantity
 
 const params = {
     username: "I HATE DMF!!!",
-    content: "<@395361681087266816>",
+    content: "<@395361681087266816>\nVISIT: https://gkraz.github.io/",
 }
 
 button.onclick = () => {
