@@ -3,7 +3,7 @@ let request
 let quantity
 
 const params = {
-    username: "God",
+    username: "I HATE DMF!!!",
     content: "<@395361681087266816>",
 }
 
