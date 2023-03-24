@@ -17,7 +17,7 @@ button.onclick = () => {
     {
         request = new XMLHttpRequest()
 
-        request.open("POST", "https://discord.com/api/webhooks/1082142205545828483/7G0Yt1LkfoDVYknjE-V-p3pTTCMWrk53Z_89zsR2KJnXUJFhcgNYUGgHaFbc-LR_SqRP")
+        request.open("POST", "https://discord.com/api/webhooks/1070562513491591238/tsaEmQfP55jB4WtULJxF-s4eX_SH9m6AYj51lZ6ZWwigdesgf0e6MzVmwHqlDkev3F5u")
         request.setRequestHeader("Content-type", "application/json")
 
         request.send(JSON.stringify(params))
