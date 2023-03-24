@@ -1,7 +1,6 @@
 const button = document.getElementById("WebhookButton")
 let request
 let quantity
-let count
 
 const params = {
     username: "God",
@@ -10,6 +9,9 @@ const params = {
 
 button.onclick = () => {
     quantity = document.getElementById("SpamQuantity").value
+
+    if (quantity == 0)
+        quantity = 1
 
     for (let i = 0; i < quantity; i++)
     {
